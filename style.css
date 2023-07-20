@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #ccc;
+}
+
+.hero {
+    background-image: url(img/bg-3.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center right;
+    padding-top: 1px; /* fixar o conteudo da nav li*/
+}
+
+.hero-content {
+    margin: 300px auto 0;
+    width: 80%;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    text-shadow: 4px 9px 3px black;
+    text-transform: uppercase;
+
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, .6);
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid ;
+    letter-spacing: 1px;
+}
+
+.hero nav ul {
+    margin: 20px 50px 0 0;
+    text-align:  right; 
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style-type: none; 
+}
+
+.hero nav a {
+    background-color: rgba(0, 0, 0, .1);
+    display: inline-block;
+    margin-left: 5px; /* espaço entre os elementos*/
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 12%;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover {
+    background-color: #fff;
+    color: black;
+    transition-duration: 0.6s;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+
+main {
+    width: 90%;
+}
+
