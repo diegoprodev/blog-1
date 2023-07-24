@@ -3,10 +3,14 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-image: url(img/bg-4.jpg);
+    background-image: url(img/v617-bb-02-technology.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+       
+
+
 
 }
 /* .container {
@@ -41,15 +45,20 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 40px;
-    text-shadow: 2px 4px 2px black;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px rgb(228, 18, 218);
     text-transform: uppercase;
     padding: 60px;
+    font-family: 'Press Start 2P', cursive; 
 
+}
+span {
+    background-image: url(img/interaction_9691143.png);
 }
 
 .hero-content p {
-    background-color: rgba(190, 4, 4, 0.4);
+    background-color: rgba(249, 1, 1, 0.608);
     display: flex;
     width: fit-content;
     margin: auto;
