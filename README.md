@@ -14,6 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 HTML e CSS
 Git e Github
+
 💻 Projeto
 Uma Página simples de um blog minimalista
 
